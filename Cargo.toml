@@ -1,0 +1,17 @@
+[package]
+name = "fullerror"
+description = "Error type that shows the full source tree"
+version = "1.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/JamieH01/fullerror"
+keywords = ["error", "trace", "error-handling"]
+categories = ["development-tools::debugging"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+thiserror = "1.0.56"
+
